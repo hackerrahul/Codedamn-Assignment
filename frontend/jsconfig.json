@@ -4,9 +4,6 @@
       "strict": false,
       "checkJs": false,
       "allowJs": true,
-      "alwaysStrict": false,
-      "paths": {
-        "$lib/*": ["./src/lib/*"]
-      }
+      "alwaysStrict": false
     }
   }

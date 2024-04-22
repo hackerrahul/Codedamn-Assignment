@@ -10,10 +10,10 @@
             <img class="w-10" src="https://wsrv.nl/?url=https%3A%2F%2Fcodedamn.com%2Fassets%2Fimages%2Ffavicons%2Ffavicon-96x96.png&w=60&q=81&output=webp" alt="">
         </div>
         <div class="flex flex-col gap-2 py-2">
-            <Button href="/" variant="outline" size="icon">
+            <Button href="/app" variant="outline" size="icon">
                 <Home class="size-5" />
             </Button>
-            <Button href="/playground" variant="outline" size="icon">
+            <Button href="/app/playground" variant="outline" size="icon">
                 <SquareTerminal class="size-5" />
             </Button>
         </div>
