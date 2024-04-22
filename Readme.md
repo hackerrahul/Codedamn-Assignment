@@ -8,9 +8,9 @@
 * Dependencies for **node-pty** package
     > Python
     > Visual Studio Enterprise based for **windows**
-        > * Development with c++
-        > * MSVC v141 (under individual components)
-        > * C++ ATL v143 build tools
+     * Development with c++
+     * MSVC v141 (under individual components)
+     * C++ ATL v143 build tools
 
 
 ## Start Dev mode for backend
