@@ -28,7 +28,7 @@
     npm run build
 ```
 
-## ENV
+## ENV (Replace wherever necessary)
 
 * Backend
 ```env
