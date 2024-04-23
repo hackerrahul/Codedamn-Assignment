@@ -174,7 +174,7 @@
                 <!-- File tree -->
                 <!-- svelte-ignore a11y-missing-attribute -->
                 {#if show_iframe}
-                    <iframe class="h-full w-full" src={`http://localhost:${data.playground.port}`}></iframe>
+                    <iframe class="h-full w-full" src={`http://37.27.86.131:${data.playground.port}`}></iframe>
                 {/if}
 
             </div>
