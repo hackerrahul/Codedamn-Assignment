@@ -43,7 +43,7 @@
 
     onMount(() => {
         initializeXterm();
-        ws = new WebSocket('ws://localhost:8081');
+        ws = new WebSocket('ws://37.27.86.131:8081');
 
         ws.onopen = () => {
             console.log('WebSocket connection established.');
