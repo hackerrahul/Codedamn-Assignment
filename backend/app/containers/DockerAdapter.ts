@@ -47,7 +47,7 @@ class DockerAdapter{
         const dockerCreateCommand = `docker run --name ${containerName} ` +
                                     `-v "${volumePath}:/app" ` +
                                     `-p ${port}:80 ` +
-                                    `--restart=yes ` +
+                                    `--restart=always ` +
                                     `-d ${imageName} ` +
                                     `tail -f /dev/null`;
 
