@@ -7,6 +7,10 @@
       "exec_mode": "cluster",
       "autorestart": true,
       "watch": true,
+      "ignore_watch" : [
+        "node_modules",
+        "docker_volumes"
+      ],
       "env": {
         "TZ": "UTC",
         "PORT": "9001",
