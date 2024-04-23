@@ -10,7 +10,7 @@
       "env": {
         "TZ": "UTC",
         "PORT": "9001",
-        "HOST": "localhost",
+        "HOST": "37.27.86.131",
         "LOG_LEVEL": "info",
         "APP_KEY": "Cedg-bGKwWcPpPpScUM6FxBVErErjNAL",
         "NODE_ENV": "development",

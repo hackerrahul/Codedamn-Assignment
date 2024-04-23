@@ -8,6 +8,7 @@
             "autorestart": true,
             "env": {
                 "PORT":9002,
+                "HOST": "37.27.86.131",
                 "API_BASE_URL": "http://37.27.86.131:9001",
                 "PUBLIC_API_BASE_URL": "http://37.27.86.131:9001"
             }
