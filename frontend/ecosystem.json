@@ -2,7 +2,7 @@
     "apps" : [
         {
             "name": "Codedamn Frontend",
-            "script": "build/index.js",
+            "script": "node -r dotenv/config build/index.js",
             "instances":1,
             "exec_mode": "fork",
             "autorestart": true,
