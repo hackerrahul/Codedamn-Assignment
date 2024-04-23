@@ -17,7 +17,7 @@
 ```bash
     cd backend
     npm install
-
+    node ace migration:run
     npm run dev
 ```
 
