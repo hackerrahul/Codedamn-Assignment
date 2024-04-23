@@ -1,0 +1,16 @@
+{
+    "apps" : [
+        {
+            "name": "Codedamn Frontend",
+            "script": "build/index.js",
+            "instances":1,
+            "exec_mode": "fork",
+            "autorestart": true,
+            "env": {
+                "PORT":9002,
+                "API_BASE_URL": "http://localhost:3333",
+                "PUBLIC_API_BASE_URL": "http://localhost:3333"
+            }
+        }
+    ]
+}

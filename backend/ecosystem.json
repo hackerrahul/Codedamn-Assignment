@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "name": "Codedamn Backend Dev",
+      "script": "./build/bin/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "watch": true,
+      "env": {
+        "TZ": "UTC",
+        "PORT": "9001",
+        "HOST": "localhost",
+        "LOG_LEVEL": "info",
+        "APP_KEY": "Cedg-bGKwWcPpPpScUM6FxBVErErjNAL",
+        "NODE_ENV": "development",
+        "SESSION_DRIVER": "cookie",
+        "DB_HOST": "144.24.113.143",
+        "DB_PORT": "9002",
+        "DB_USER": "mysql",
+        "DB_PASSWORD": "pKAMwlv9WCMUiY7qVGwyhy0v3ZQ1nag8DYX1EazXno1aMDlZj8oDlGdO9TNguaQz",
+        "DB_DATABASE": "default"
+
+      }
+    }
+  ]
+}
