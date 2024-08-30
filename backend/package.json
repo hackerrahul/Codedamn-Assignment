@@ -65,7 +65,7 @@
     "mysql2": "^3.9.4",
     "node-pty": "^1.0.0",
     "reflect-metadata": "^0.2.2",
-    "ws": "^8.16.0"
+    "ws": "^8.17.1"
   },
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/app"
